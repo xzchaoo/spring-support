@@ -1,3 +1,5 @@
+package com.xzchaoo.springsupport.springboot;
+
 import com.xzchaoo.spring.support.core.BaseSpringTaskRunner;
 
 import org.springframework.boot.ApplicationArguments;

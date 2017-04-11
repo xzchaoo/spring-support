@@ -1,6 +1,6 @@
 package com.xzchaoo.spring.support.core;
 
-import com.xzchaoo.utils.task.BaseTaskSupport;
+import com.xzchaoo.utils.task.BaseTaskRunnerSupport;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,7 +13,7 @@ import java.util.concurrent.ScheduledFuture;
 /**
  * Created by Administrator on 2017/4/3.
  */
-public abstract class BaseSpringTaskRunner extends BaseTaskSupport {
+public abstract class BaseSpringTaskRunner extends BaseTaskRunnerSupport {
 	private static final Logger LOG = LoggerFactory.getLogger(BaseSpringTaskRunner.class);
 	protected volatile ScheduledFuture<?> future;
 
